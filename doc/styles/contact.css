@@ -1,0 +1,92 @@
+/* Contact */
+
+.contact-wrapper > .contact-container > .contact-logo img {
+  width: 250px;
+  height: 250px;
+  margin-left: 50px;
+  margin-bottom: -40px;
+}
+
+.contact-wrapper > .contact-container > .contact-info {
+    font-family: "Forum", sans-serif;
+    font-weight: 700;
+    font-size: 1.25em;
+    margin-left: 55px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    
+}
+
+/* Form */
+
+.form p {
+    font-size: 1.3rem;
+}
+
+.form {
+    font-family: "Forum", sans-serif;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: -200px;
+    margin-top: -238px;
+}
+
+form input {
+    font-size: 1.5rem;
+    padding: 1.5rem,2rem;
+    border-radius: 2px;
+    border: none;
+    border-bottom: 3px solid #2646eb;
+    width: 100%;
+    display: block;
+    transition: 0.3s;
+}
+
+form textarea {
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+    border-radius: 3px;
+    border: 3px solid #2646eb;
+    font-size: 1.5rem;
+    padding: 1.5rem,2rem;
+    transition: 0.3s;
+}
+
+button {
+    background-color: #2646eb;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid #2646eb;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+}
+
+form input:focus,
+form textarea:focus {
+    border-bottom: 3px solid #2646eb;
+    outline: none;
+}
+
+button:focus {
+    background-color: #2646eb;
+    border: 1px solid #2646eb;
+    outline: none;
+}
+
+button:hover {
+    background-color: #2646eb;
+    border: 1px solid #2646eb;
+    color: white;
+    cursor: pointer;
+}
+

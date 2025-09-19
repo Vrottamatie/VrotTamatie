@@ -1,0 +1,98 @@
+/* Header */
+
+.header-wrapper {
+    background-image: url(../Img/smashed-tomato.png);
+    background-color: #2646eb;
+    background-position: center;
+    height: 270px;
+    background-repeat: no-repeat;
+    margin-top: -21px;
+}
+
+.header-wrapper > .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 68px;
+}
+
+/* About Text */
+
+ .header-wrapper > .header-container > h1 {
+    margin-left: 116px;
+    color: #faf3dd;
+    letter-spacing: 1px;
+    background-color: #ee4b2b;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Navigation Links */
+
+.header-wrapper > .header-container > .nav-links {
+    display: flex;
+    flex-direction: column;
+    margin-right: 250px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.header-wrapper > .header-container > .nav-links a {
+    color: #faf3dd;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+  .header-wrapper > .header-container > .nav-links a:hover {
+    color: #ee4b2b;
+    letter-spacing: 2px;
+  }
+
+  .header-wrapper > .header-container > .nav-links a {
+    width: 70px;
+    text-align: center;
+  }
+
+  /* About Story */
+
+  .about-wrapper {
+    background-image: url(../Img/Laptop-books.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .about-wrapper > .about-container {
+    font-family: "Forum", serif;
+    color: #faf3dd;
+    font-weight: 700;
+  }
+
+  .about-wrapper > .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  .about-wrapper > .about-container > p {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    text-shadow: #faf3dd 1px 1px;
+  }
+
+  .about-wrapper > .about-container h1, h2 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ee4b2b;
+    padding: 10px 10px;
+    border-radius: 10px;
+  
+  }
+
+
