@@ -1,0 +1,153 @@
+/* Navigation */
+
+.nav-wrapper {
+  background-color: #ee4b2b;
+  height: 350px;
+  font-family: "Forum", serif;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 1px;
+  
+  
+}
+
+.nav-wrapper > .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  margin-top: -25px;
+}
+
+/* Navigation Logo */
+
+.nav-wrapper > .nav-container > .nav-center-column > .nav-logo {
+  margin-bottom: -50px;
+}
+
+/* Navigation Links */
+
+.nav-wrapper > .nav-container > .nav-center-column > .nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-wrapper > .nav-container > .nav-center-column > .nav-links a {
+  color: #faf3dd;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.nav-wrapper > .nav-container > .nav-center-column > .nav-links a:hover {
+  color: #2646eb;
+  letter-spacing: 2px;
+}
+
+.nav-wrapper > .nav-container > .nav-center-column > .nav-links a {
+  width: 70px;
+  text-align: center;
+}
+
+/* Contact */
+
+.nav-wrapper > .nav-container > .nav-contact-wrapper {
+  text-align: right;
+  color: #faf3dd;
+}
+
+/* Opening - Hours */
+
+.nav-wrapper > .nav-container > .nav-hours-wrapper > .nav-hours {
+  color: #faf3dd;
+}
+
+/* Hero - Section */
+
+.hero-wrapper {
+  background-color: #2646eb;
+  background-image: url(../Img/hero-section-tomato.avif);
+  background-position: center;
+  background-size: 280px;
+  background-attachment: fixed;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-wrapper > .hero-container {
+  color: #faf3dd;
+  font-size: 1.2rem;
+  font-family: "Forum", serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+/* Map */
+
+.map iframe {
+  width: 100%;
+}
+
+/* Footer */
+
+.footer-wrapper {
+  background-color: #ee4b2b;
+  color: #faf3dd;
+  font-family: "Forum", serif;
+  font-weight: 500;
+  font-style: normal;
+  padding: 20px 0;
+  margin-top: -5px;
+  letter-spacing: 1px;
+}
+
+/* Footer Logo */
+
+.footer-wrapper > .footer-center-column > .footer-logo img {
+  width: 30%;
+  height: 30%;
+}
+
+.footer-wrapper > .footer-center-column > .footer-logo {
+  margin-left: 550px;
+}
+
+/* Footer Links */
+
+.footer-wrapper > .footer-center-column > .footer-links {
+  padding: 0 400px 0 400px;
+}
+
+.footer-wrapper > .footer-center-column > .footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-wrapper > .footer-center-column > .footer-links a {
+  color: #faf3dd;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.footer-wrapper > .footer-center-column > .footer-links a:hover {
+  color: #2646eb;
+  letter-spacing: 2px;
+}
+
+.footer-wrapper > .footer-center-column > .footer-links a {
+  width: 70px;
+  text-align: center;
+}
+
+/* Footer Container */
+
+.footer-wrapper > .footer-container {
+  font-size: .8rem;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+
+

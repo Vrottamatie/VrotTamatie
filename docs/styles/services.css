@@ -1,0 +1,24 @@
+/* Services Section */
+
+.services-wrapper {
+  background-image: url(../Img/website-design.avif);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.services-wrapper > .services-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0;
+}
+
+.services-wrapper > .services-container {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding-left: 40px;
+}
